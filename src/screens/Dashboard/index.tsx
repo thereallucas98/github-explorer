@@ -88,7 +88,7 @@ export function Dashboard() {
                * empty (use disabled prop to this):
                * disabled={CONDITION HERE}
                */
-              disabled={inputText ? true : false}
+              disabled={inputText ? false : true}
             >
               <Icon name="search" size={20} />
             </InputButton>
